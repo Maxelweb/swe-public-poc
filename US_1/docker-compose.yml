@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  website:
+    container_name: gw_website
+    build: ./site
+    network_mode: host
+  gateway:
+    container_name: gw_gateway
+    build: ./java
+    ports:
+    - "29092:29092"
