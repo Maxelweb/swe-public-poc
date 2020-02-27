@@ -36,7 +36,7 @@
 <h2><?php echo $ip;?></h2>
 
 <br>
-<img src="https://www.countryflags.io/<? echo $details->country;?>/flat/64.png">
+<img src="https://www.countryflags.io/<?php echo $details->country;?>/flat/64.png">
 <br>
 
 <div>
